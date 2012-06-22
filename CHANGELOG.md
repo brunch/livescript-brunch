@@ -1,3 +1,6 @@
+# LiveScript-brunch 1.3.2 (June 22, 2012)
+* Fixed prelude include error.
+
 # LiveScript-brunch 1.3.1 (June 22, 2012)
 * Fixed typo.
 
