@@ -1,3 +1,6 @@
+# LiveScript-brunch 1.3.1 (June 22, 2012)
+* Fixed typo.
+
 # LiveScript-brunch 1.3.0 (June 22, 2012)
 * Prelude library is now automatically included in source.
 * Updated LiveScript to 0.9.9.
