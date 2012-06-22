@@ -1,4 +1,5 @@
 LiveScript = require 'LiveScript'
+sysPath = require 'path'
 
 # Example
 # 
