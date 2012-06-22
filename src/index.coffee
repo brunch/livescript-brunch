@@ -101,5 +101,5 @@ module.exports = class #{formatClassName pluralName}View extends CollectionView
       callback error, result
 
   include: [
-    (sysPath.join __dirname, '..', 'node_modules', 'prelude-ls', 'prelude.js')
+    (sysPath.join __dirname, '..', 'vendor', 'prelude-ls-0.4.0.js')
   ]
