@@ -1,6 +1,6 @@
 {
   "name": "LiveScript-brunch",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Adds LiveScript support to brunch.",
   "author": "Paul Miller (http://paulmillr.com/)",
   "homepage": "https://github.com/brunch/LiveScript-brunch",
@@ -10,6 +10,7 @@
   },
   "main": "./lib/index",
   "scripts": {
+    "prepublish": "rm -rf lib && coffee -o lib/ src/",
     "postinstall": "node setup.js postinstall",
     "test": "node setup.js test"
   },
@@ -18,7 +19,8 @@
   },
   "dependencies": {
     "coffee-script": "1.3.3",
-    "LiveScript": "0.9.3"
+    "LiveScript": "0.9.9",
+    "prelude-ls": "0.4.0"
   },
   "devDependencies": {
     "mocha": "0.12.1",
