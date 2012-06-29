@@ -6,19 +6,19 @@ describe('Plugin', function() {
   });
 
   it('should be an object', function() {
-    expect(plugin).to.be.ok();
+    expect(plugin).to.be.ok;
   });
 
   it('should has #compile method', function() {
-    expect(plugin.compile).to.be.a(Function);
+    expect(plugin.compile).to.be.an.instanceof(Function);
   });
 
   it('should compile and produce valid result', function(done) {
     var content = 'a = 1';
-    var expected = '(function(){\n  var a;\n  a = 1;\n}).call(this);\n';
+    var expected = 'var a;\na = 1;';
 
     plugin.compile(content, 'file.ls', function(error, data) {
-      expect(error).not.to.be.ok();
+      expect(error).not.to.be.ok;
       expect(data).to.equal(expected)
       done();
     });
