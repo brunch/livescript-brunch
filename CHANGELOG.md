@@ -1,3 +1,8 @@
+# LiveScript-brunch 1.3.3 (June 29, 2012)
+* Updated LiveScript to 0.9.10 and prelude-ls to 0.5.0.
+* Added node.js 0.8 and 0.9 support.
+* Package is now precompiled before every publishing to npm.
+
 # LiveScript-brunch 1.3.2 (June 22, 2012)
 * Fixed prelude include error.
 
