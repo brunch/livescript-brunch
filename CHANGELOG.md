@@ -1,4 +1,4 @@
-# LiveScript-brunch 1.4.0 (unreleased)
+# LiveScript-brunch 1.4.0 (July 17, 2012)
 * Removed generators.
 
 # LiveScript-brunch 1.3.4 (July 16, 2012)
