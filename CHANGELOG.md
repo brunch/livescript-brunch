@@ -1,3 +1,6 @@
+# LiveScript-brunch 1.4.0 (unreleased)
+* Removed generators.
+
 # LiveScript-brunch 1.3.4 (July 16, 2012)
 * Updated LiveScript to 0.9.12.
 * Fixed prelude-ls inclusion bug.
