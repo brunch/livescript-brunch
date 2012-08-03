@@ -18,5 +18,5 @@ module.exports = class LiveScriptCompiler
       callback error, result
 
   include: [
-    (sysPath.join __dirname, '..', 'vendor', 'prelude-ls-0.5.0.js')
+    (sysPath.join __dirname, '..', 'vendor', 'prelude-browser-0.6.0.js')
   ]
