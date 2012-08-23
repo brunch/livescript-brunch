@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/brunch/LiveScript-brunch.png)](http://travis-ci.org/brunch/LiveScript-brunch)
 ## LiveScript-brunch
 Adds [LiveScript](http://gkz.github.com/LiveScript/) support to
 [brunch](http://brunch.io).
