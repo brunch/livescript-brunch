@@ -1,3 +1,6 @@
+# LiveScript-brunch 1.4.2 (November 26, 2012)
+* The plugin will now use latest LiveScript 1.x.
+
 # LiveScript-brunch 1.4.1 (August 3, 2012)
 * Updated LiveScript to 1.0.0 and prelude-ls to 0.6.0.
 
