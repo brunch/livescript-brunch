@@ -1,3 +1,6 @@
+# LiveScript-brunch 1.5.0 (January 13, 2012)
+* Improved installation process.
+
 # LiveScript-brunch 1.4.2 (November 26, 2012)
 * The plugin will now use latest LiveScript 1.x.
 
