@@ -10,9 +10,8 @@
   },
   "main": "./lib/index",
   "scripts": {
-    "prepublish": "rm -rf lib && coffee -o lib/ src/",
-    "postinstall": "node setup.js postinstall",
-    "test": "node setup.js test"
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
+    "test": "node_modules/.bin/mocha --compilers coffee:coffee-script --require test/common.js"
   },
   "dependencies": {
     "LiveScript": "1.x"
