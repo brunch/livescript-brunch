@@ -16,7 +16,3 @@ module.exports = class LiveScriptCompiler
       error = err
     finally
       callback error, result
-
-  include: [
-    (sysPath.join __dirname, '..', 'vendor', 'prelude-browser-0.6.0.js')
-  ]
