@@ -1,3 +1,6 @@
+# LiveScript-brunch 1.6.0 (18 May 2013)
+* Removed prelude-ls.
+
 # LiveScript-brunch 1.5.1 (19 March 2013)
 * Added node 0.10 support, removed coffee-script dependency.
 
