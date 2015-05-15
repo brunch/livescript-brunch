@@ -1,4 +1,4 @@
-## LiveScript-brunch
+## livescript-brunch
 Adds [LiveScript](http://gkz.github.com/LiveScript/) support to
 [brunch](http://brunch.io).
 
