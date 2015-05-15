@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git@github.com:brunch/livescript-brunch.git"
   },
+  "files": ["index.js"],
   "scripts": {
     "test": "mocha"
   },
