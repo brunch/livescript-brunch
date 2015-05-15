@@ -3,15 +3,14 @@
   "version": "1.6.0",
   "description": "Adds LiveScript support to brunch.",
   "author": "Paul Miller (http://paulmillr.com/)",
-  "homepage": "https://github.com/brunch/LiveScript-brunch",
+  "homepage": "https://github.com/brunch/livescript-brunch",
+  "keywords": ["brunch", "plugin", "livescript"],
   "repository": {
     "type": "git",
-    "url": "git@github.com:brunch/LiveScript-brunch.git"
+    "url": "git@github.com:brunch/livescript-brunch.git"
   },
-  "main": "./lib/index",
   "scripts": {
-    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
-    "test": "node_modules/.bin/mocha --require test/common.js"
+    "test": "mocha"
   },
   "dependencies": {
     "livescript": "1.x"
