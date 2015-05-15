@@ -1,3 +1,6 @@
+# livescript-brunch 1.7.0 (15 May 2015)
+* Updated name to match livescript project's changes
+
 # LiveScript-brunch 1.6.0 (18 May 2013)
 * Removed prelude-ls.
 
