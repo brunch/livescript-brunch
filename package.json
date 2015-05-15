@@ -1,6 +1,6 @@
 {
-  "name": "LiveScript-brunch",
-  "version": "1.6.0",
+  "name": "livescript-brunch",
+  "version": "1.7.0",
   "description": "Adds LiveScript support to brunch.",
   "author": "Paul Miller (http://paulmillr.com/)",
   "homepage": "https://github.com/brunch/LiveScript-brunch",
@@ -14,7 +14,7 @@
     "test": "node_modules/.bin/mocha --require test/common.js"
   },
   "dependencies": {
-    "LiveScript": "1.x"
+    "livescript": "1.x"
   },
   "devDependencies": {
     "mocha": "1.11.0",

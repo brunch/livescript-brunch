@@ -1,7 +1,7 @@
-LiveScript = require 'LiveScript'
+livescript = require 'livescript'
 sysPath = require 'path'
 
-module.exports = class LiveScriptCompiler
+module.exports = class LivecriptCompiler
   brunchPlugin: yes
   type: 'javascript'
   extension: 'ls'
@@ -11,7 +11,7 @@ module.exports = class LiveScriptCompiler
 
   compile: (data, path, callback) ->
     try
-      result = LiveScript.compile data, bare: yes
+      result = livescript.compile data, bare: yes, header: no
     catch err
       error = err
     finally
