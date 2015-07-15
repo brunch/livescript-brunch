@@ -10,7 +10,24 @@ Or, do manual install:
 * Add `"livescript-brunch": "x.y.z"` to `package.json` of your brunch app.
   Pick a plugin version that corresponds to your minor (y) brunch version.
 * If you want to use git version of plugin, add
-`"livescript-brunch": "git://github.com/brunch/livescript-brunch.git"`.
+`"livescript-brunch": "brunch/livescript-brunch"`.
+
+## Configuration
+
+You can pass `bare` and `const` options to compiler by setting them in your
+brunch config file:
+
+```js
+exports.config = {
+  // other configs ...
+  plugins: {
+    livescript: {
+      bare: false, // default is true
+      const: true  // default is false
+    }
+  }
+}
+```
 
 ## License
 
