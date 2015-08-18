@@ -1,3 +1,7 @@
+# livescript-brunch 1.8.0 (18 August 2015)
+* Added sourcemap support
+* Set some default options for the livescript compilation API
+
 # livescript-brunch 1.7.0 (15 May 2015)
 * Updated name to match livescript project's changes
 
