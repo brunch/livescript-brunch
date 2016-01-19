@@ -20,11 +20,10 @@ describe('Plugin', function() {
     var content = 'a = 1';
     var expected = 'var a;\na = 1;';
 
-    plugin.compile(content, 'file.ls', function(error, data) {
-      expect(error).not.to.be.ok;
+    plugin.compile({data: content, path: 'file.ls'}).then(data => {
       expect(data).to.be.equal(expected);
       done();
-    });
+    }, error => expect(error).not.to.be.ok);
   });
 
   it('compiles and produces valid resault and sourcemap', function(done) {
@@ -33,14 +32,13 @@ describe('Plugin', function() {
     var content = 'a = 1';
     var expected = 'var a;\na = 1;\n';
 
-    plugin.compile(content, 'file.ls', function(error, data) {
-      expect(error).not.to.be.ok;
+    plugin.compile({data: content, path: 'file.ls'}).then(data => {
       expect(data).to.be.an('object');
       expect(data.data).to.be.a('string');
       expect(data.data).to.equal(expected);
       expect(data.map).to.be.a('string');
       done();
-    });
+    }, error => expect(error).not.to.be.ok);
   });
 
   it('accepts explicit bare option', function(done) {
@@ -49,11 +47,10 @@ describe('Plugin', function() {
     var content = 'a = 1';
     var expected = '(function(){\n  var a;\n  a = 1;\n}).call(this);\n';
 
-    plugin.compile(content, 'file.ls', function(error, data) {
-      expect(error).to.not.be.ok;
+    plugin.compile({data: content, path: 'file.ls'}).then(data => {
       expect(data).to.equal(expected);
       done();
-    });
+    }, error => expect(error).not.to.be.ok);
   });
 
   it('accepts explicit const option', function(done) {
@@ -62,7 +59,7 @@ describe('Plugin', function() {
     var content = 'a = 1\na = 2';
     var expected = 'SyntaxError: redeclaration of constant "a"';
 
-    plugin.compile(content, 'file.ls', function(error) {
+    plugin.compile({data: content, path: 'file.ls'}).then(null, error => {
       expect(error).to.be.ok;
       expect(error).to.include(expected);
       done();
