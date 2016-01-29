@@ -1,3 +1,6 @@
+# livescript-brunch 2.0.0 (Jan 29, 2016)
+* Updated source code & API. The plugin would now only work with Brunch 2.2 and higher.
+
 # livescript-brunch 1.8.0 (18 August 2015)
 * Added sourcemap support
 * Set some default options for the livescript compilation API
