@@ -15,7 +15,7 @@
     "test": "node_modules/.bin/eslint index.js && node_modules/.bin/mocha"
   },
   "dependencies": {
-    "livescript": "^1.4"
+    "livescript": "~1.4.0"
   },
   "devDependencies": {
     "mocha": "1.11.0",
