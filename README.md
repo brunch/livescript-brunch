@@ -3,7 +3,7 @@ Adds [LiveScript](http://gkz.github.com/LiveScript/) support to
 [brunch](http://brunch.io).
 
 ## Usage
-Install the plugin via npm with `npm install --save livescript-brunch`.
+Install the plugin via npm with `npm install --save-dev livescript-brunch`.
 
 Or, do manual install:
 
