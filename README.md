@@ -1,21 +1,20 @@
-## livescript-brunch
-Adds [LiveScript](http://gkz.github.com/LiveScript/) support to
-[brunch](http://brunch.io).
+# livescript-brunch
+
+Adds [LiveScript](http://gkz.github.com/LiveScript/) support to [brunch](http://brunch.io).
 
 ## Usage
+
 Install the plugin via npm with `npm install --save-dev livescript-brunch`.
 
 Or, do manual install:
 
-* Add `"livescript-brunch": "x.y.z"` to `package.json` of your brunch app.
-  Pick a plugin version that corresponds to your minor (y) brunch version.
+* Add `"livescript-brunch": "x.y.z"` to `package.json` of your brunch app. Pick a plugin version that corresponds to your minor (y) brunch version.
 * If you want to use git version of plugin, add
 `"livescript-brunch": "brunch/livescript-brunch"`.
 
 ## Configuration
 
-You can pass `bare` and `const` options to compiler by setting them in your
-brunch config file:
+You can pass `bare` and `const` options to compiler by setting them in your brunch config file:
 
 ```js
 exports.config = {
@@ -33,7 +32,7 @@ exports.config = {
 
 The MIT License (MIT)
 
-Copyright (c) 2012-2015 Paul Miller (http://paulmillr.com)
+Copyright (c) 2012-2017 Paul Miller (http://paulmillr.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
